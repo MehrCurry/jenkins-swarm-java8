@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:8
+FROM anapsix/alpine-java:jre8
 
 RUN apk upgrade --update && apk add graphviz git subversion mercurial
 
